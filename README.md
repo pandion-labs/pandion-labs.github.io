@@ -21,3 +21,7 @@ The canonical site URL is <https://pandionlabs.com/>. GitHub Pages redirects bot
 DNS is hosted at Hover. The apex (`@`) has four A records: `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, and `185.199.111.153`. The `www` CNAME points to `pandion-labs.github.io`.
 
 The root `CNAME` file contains `pandionlabs.com` and must be preserved. If the domain changes, update the GitHub Pages setting, DNS records, canonical and Open Graph URLs in `index.html`, `robots.txt`, and `sitemap.xml` together.
+
+## Shared brand colors
+
+The founder-adopted [Pandion Labs color system](brand/README.md) is the shared palette for our products, including Fishhawk. [brand/colors.css](brand/colors.css) provides reusable tokens and is consumed by this site. Product theme changes should use those values and the documented contrast pairs.

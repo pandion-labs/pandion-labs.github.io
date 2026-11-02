@@ -1,0 +1,10 @@
+/* Pandion Labs shared palette. Usage and contrast pairs: brand/README.md. */
+:root {
+  --pandion-paper: #f5f3eb;
+  --pandion-ink: #193d35;
+  --pandion-muted: #5e6c62;
+  --pandion-line: #cdd1c5;
+  --pandion-rust: #af4727;
+  --pandion-surface: #e8eadd;
+  --pandion-sand: #d5b993;
+}
